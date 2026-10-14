@@ -48,7 +48,25 @@ The service fee is charged on the winner's **profit**, excluding the winner's ow
 
 The transaction preview shows the stake and the technical payment for contract execution and storage. The wallet separately shows its network fee.
 
-Stakes are held by the room contract. The published room code has no administrator command to take players' stakes, appoint a winner, or cancel a room on their behalf. Room terms are fixed when the room is created. The owner can manage settings for new rooms and publish new room versions; that does not replace the code of an existing room.
+## Player funds and owner permissions
+
+**Accepted stakes are protected by the smart contract's obligations:** the room's bank is reserved for the prize or stake refunds under the game rules. These funds are not part of the owner's available balance. Administrator permissions do not allow the owner to withdraw players' stakes, appoint a winner, or cancel someone else's battle.
+
+In the published contract version, the owner can:
+
+- **Set the service fee between 1% and 10%** of the winner's profit, and set the minimum and maximum stake for new rooms.
+- **Pause and resume room creation and new entries.** Pausing does not disable refunds provided by the contract or completion of a draw that has already started.
+- **Manage the Affiliate Program:** set the default and individual rates, choose automatic or manual approval, and approve or disable affiliates.
+- **Add, replace, or disable an investor** and set their share of project income.
+- **Configure technical funding:** allocate 0–20% of the service fee to the technical fund, set its address, adjust the additional technical margin, and choose where the unused remainder goes.
+- **Publish new room versions** and allow or stop new entries into older versions. This does not replace the code of rooms that already exist.
+- **Withdraw income credited to their own account:** their share of completed-battle fees and affiliate registration payments. Funds in other affiliates' and investors' accounts can be withdrawn only by the corresponding wallet.
+
+The service fee and the room's income-sharing terms are fixed when the room is created; an individual affiliate rate is fixed when the corresponding stake is accepted. Setting changes do not recalculate accepted stakes or income already credited.
+
+The technical fund is held separately from room banks. Returning its available surplus to the owner does not withdraw players' stakes.
+
+These rules can be checked in [Root](contracts/V2Root.tolk), [Room](contracts/V2Room.tolk), [RoomB](contracts/V2RoomB.tolk), [Account](contracts/V2Account.tolk), and the [settings limits](contracts/v2-types.tolk).
 
 ## Affiliate Program
 
