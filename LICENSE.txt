@@ -1,0 +1,18 @@
+TonRooms verification-only source notice
+
+Copyright (c) 2026 TonRooms. All rights reserved.
+Source available for verification only.
+
+Permission is granted to inspect, audit and compile the TonRooms project
+source files to verify TonRooms bytecode, and to host or reproduce those
+files for that verification, provided this notice is retained.
+
+No permission is granted to deploy or reuse this code in other projects.
+Any additional use requires permission from the applicable rights holder,
+except where independently permitted by applicable law or platform terms.
+
+This notice applies to the TonRooms project files in contracts/. It does
+not relicense the compiler, standard library, or other third-party
+dependencies, which remain subject to their own licenses.
+
+This source-available notice is not an open-source license.

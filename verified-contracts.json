@@ -1,0 +1,70 @@
+{
+  "compiler": "tolk",
+  "compilerVersion": "1.4.2",
+  "wrapperGenerator": "acton 1.2.0",
+  "contracts": {
+    "V2Root": {
+      "entrypoint": "contracts/V2Root.tolk",
+      "codeHash": "85912856f4871c8b3c9d4d7ba44b5a7eaf74747937aba8b42d460b270514212d",
+      "codeDepth": 8,
+      "abiHash": "2cc5ae9262e971fc2d06b72f2646a39089a7e8f0b328a750e905da10962eddf2",
+      "sources": {
+        "contracts/v2-types.tolk": "1802b30f422997e1179e33bde43ba5e8edcec61ccb043386cca3703874ff1224",
+        "contracts/V2Root.tolk": "551a6bb6e65cb40202354bcabf06447914134f9a593fbff1498d23185a46baf5"
+      },
+      "verified": true,
+      "verificationStatusUrl": "https://verifier.ton.org/api/v1/verification/status?code_hash=85912856f4871c8b3c9d4d7ba44b5a7eaf74747937aba8b42d460b270514212d"
+    },
+    "V2Room": {
+      "entrypoint": "contracts/V2Room.tolk",
+      "codeHash": "3a751473f797e99fcb3037a4bc19033e81aa851225f6a0f3ba9452226ea7e30a",
+      "codeDepth": 13,
+      "abiHash": "b1758ec76fc529f8c1607890bdf34d841e2ee67ee7419f67bbb2ab0b47d8dc00",
+      "sources": {
+        "contracts/v2-types.tolk": "1802b30f422997e1179e33bde43ba5e8edcec61ccb043386cca3703874ff1224",
+        "contracts/V2Room.tolk": "8941a0a0e1cafb18f16b8374c2b6c023351e1b378c7ff5df06188f8be1a6655d"
+      },
+      "verified": true,
+      "verificationStatusUrl": "https://verifier.ton.org/api/v1/verification/status?code_hash=3a751473f797e99fcb3037a4bc19033e81aa851225f6a0f3ba9452226ea7e30a"
+    },
+    "V2RoomB": {
+      "entrypoint": "contracts/V2RoomB.tolk",
+      "codeHash": "25d34eaf6c593f6112999b70b9f6c4e50266e0271de7476c0f233f880ffac729",
+      "codeDepth": 13,
+      "abiHash": "af9e9cbc16d242666cc64bd60c094c55c7b70a93301096ca92590c5d90e96f80",
+      "sources": {
+        "contracts/v2-types.tolk": "1802b30f422997e1179e33bde43ba5e8edcec61ccb043386cca3703874ff1224",
+        "contracts/V2RoomB.tolk": "acb3da3163b85cf96bd91f9454a5c8a02c6d3316d2c388058cdfea3d4d244fab"
+      },
+      "verified": true,
+      "verificationStatusUrl": "https://verifier.ton.org/api/v1/verification/status?code_hash=25d34eaf6c593f6112999b70b9f6c4e50266e0271de7476c0f233f880ffac729"
+    },
+    "V2Profile": {
+      "entrypoint": "contracts/V2Profile.tolk",
+      "codeHash": "7114309176bd98c6760a67feb93935f32ef35652b0129129f41f126c794973a4",
+      "codeDepth": 10,
+      "abiHash": "d80024d839e298abc7375415268846740997f013a220ea6e1304989abdce0c8f",
+      "sources": {
+        "contracts/v2-types.tolk": "1802b30f422997e1179e33bde43ba5e8edcec61ccb043386cca3703874ff1224",
+        "contracts/V2Profile.tolk": "02e14c222fb75f62be7616e6b3f1927e0b7e19f9ff7428fd5f698d7bfec0eacb"
+      },
+      "verified": true,
+      "verificationStatusUrl": "https://verifier.ton.org/api/v1/verification/status?code_hash=7114309176bd98c6760a67feb93935f32ef35652b0129129f41f126c794973a4"
+    },
+    "V2Account": {
+      "entrypoint": "contracts/V2Account.tolk",
+      "codeHash": "7c047deeb88d51005b5cce169b5a3c17a8e038d76af60546afa19d6b946b0c4f",
+      "codeDepth": 7,
+      "abiHash": "402eb2e9fe6d803faa5fd34ce2d818eaa292f857e25fb4e742ce0bda83866204",
+      "sources": {
+        "contracts/v2-types.tolk": "1802b30f422997e1179e33bde43ba5e8edcec61ccb043386cca3703874ff1224",
+        "contracts/V2Account.tolk": "53c0432b31cae0d6b7b19db7388aad736232eb91145bed7ee98638606e9237b7"
+      },
+      "verified": true,
+      "verificationStatusUrl": "https://verifier.ton.org/api/v1/verification/status?code_hash=7c047deeb88d51005b5cce169b5a3c17a8e038d76af60546afa19d6b946b0c4f"
+    }
+  },
+  "network": "mainnet",
+  "rootAddress": "EQAvlB0dp7oDSJJGjs4hyO2kinO6VaYYzKDlzxD9NdYhRgfe",
+  "verificationCheckedAt": "2026-10-14T10:23:54.827805+00:00"
+}
